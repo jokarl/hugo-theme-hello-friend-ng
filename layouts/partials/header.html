@@ -14,6 +14,14 @@
             {{ end }}
 
             <span class="theme-toggle unselectable">{{ partial "theme-icon.html" . }}</span>
+
+            <span>
+                <div>
+                    {{ range $.Site.Home.AllTranslations }}
+                    <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-round"></span></a>
+                    {{ end }}
+                </div>
+            </span>
         </span>
     </span>
 </header>

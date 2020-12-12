@@ -1,0 +1,39 @@
+# Translations for Swedish
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "Översättningar"
+
+[postAvailable]
+other = "Också tillgänglig på"
+
+
+# 404.html
+#
+[archives]
+other = "Arkiv"
+
+[home]
+other = "Hem"
+
+[notFound]
+other = "Ojdå, sidan kunde inte hittas…"
+
+
+# posts/single.html
+#
+[readingTime]
+one   = "En minut"
+other = "{{ .Count }} minuter"
+
+[tableOfContents]
+other = "Innehåll"
+
+[wordCount]
+one   = "Ett ord"
+other = "{{ .Count }} ord"
+
+[lastModified]
+other = "Senast uppdaterad"
